@@ -1,0 +1,27 @@
+.header {
+    margin: auto;
+    width: 100vw;
+    text-align: center;
+}
+
+.vote {
+    background-color: purple;
+    color: white;
+    border:none;
+    padding: 7px 15px;
+    font-size: 16px;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.pop-up {
+    text-align: center;
+    box-shadow: 2px 2px 2px silver;
+    width: 60vw;
+}
+
+
