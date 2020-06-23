@@ -29,7 +29,15 @@
     box-shadow: 2px 2px 2px silver;
     width: 60vw;
     background-color: whitesmoke;
+    z-index: 1;
+    display: none;
+    animation: animatezoom 0.5s
 }
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
 
 .exit {
     text-align: right;
@@ -39,7 +47,7 @@
 }
 
 .image {
-    width: 250px;
+    width: 45vw;
     border-radius: 50%;
 }
 

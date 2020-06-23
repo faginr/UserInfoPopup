@@ -11,13 +11,13 @@
   <body>
     <div class="header">
       <h2>Click to add info</h2>
-      <button class="vote">Vote</button>
+      <button class="vote" onclick="popUp();">Vote</button>
     </div>
 
     <div class="overlay">
       <div class="pop-up">
         <div class="main">
-          <div class="exit">X</div>
+          <div class="exit" onclick="exit();"><strong>X</strong></div>
           <div class="image-container">
             <img class="image" src="./assets/mario.jpg" alt="">
           </div>
@@ -44,5 +44,6 @@
         </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
